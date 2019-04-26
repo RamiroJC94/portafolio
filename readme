@@ -1,0 +1,12 @@
+#     Funcionamiento  :
+#                       · el proyecto esta dividido en 2 branchs
+#                         · Master & gh-pages
+#                           · Master    => para el desarrollo
+#                           · gh-pages  => github detecta este branch para pages.github
+
+#     Pasos para crear :
+#                       · crear proyecto
+#                       · cargar app o solo un index.html de prueba
+#                       · crear un nuevo branch llamado gh-pages
+#                       · username.github.io/nameProyectPages
+# · https://ramirojc94.github.io/portafolio/
