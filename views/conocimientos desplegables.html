@@ -1,0 +1,153 @@
+<div class="row">
+	<div class="card text-white bg-secondary border border-dark ml-5 mb-3 col-8">
+		<div class="card-header btn btn-secondary" data-toggle="collapse" data-target="#Collapse0" aria-expanded="false" aria-controls="Collapse0">Conocimientos</div>
+
+		<div class="ml-1">
+			<div class="collapse" id="Collapse0">
+				<div class="jumbotron pt-1 bg-secondary border border-dark col-10 pb-1 mb-3 mt-3">
+					<p class="btn btn-success" data-toggle="collapse" data-target="#Collapse1" aria-expanded="false" aria-controls="Collapse1">Front-End</p>
+					<div class="collapse" id="Collapse1">					
+						<div class="card-body m-1 p-1" ng-repeat="front in conocimientos.front track by $index">
+							<div class="row">
+								<h5 class="card-title col-6"> - {{front.nombre}} </h5>
+								<p class="card-text col-6">{{front.nivel}}</p>
+							</div>
+
+							<div class="row">
+								<div class="col-6">
+									<div class="progress ">
+										<div class="progress-bar bg-success" role="progressbar" style="width: {{front.progressb}}%" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>									
+								</div>
+							</div>						
+						</div>					
+					</div>
+				</div>
+
+				<div class="jumbotron pt-1 bg-secondary border border-dark col-10 pb-1 mb-3">
+					<p class="btn btn-success" data-toggle="collapse" data-target="#Collapse2" aria-expanded="false" aria-controls="Collapse2">Back-End</p>
+					<div class="collapse" id="Collapse2">
+						<div class="card-body m-1 p-1" ng-repeat="back in conocimientos.back track by $index">
+							<div class="row">
+								<h5 class="card-title col-6"> - {{back.nombre}} </h5>
+								<p class="card-text col-6">{{back.nivel}}</p>
+							</div>
+
+							<div class="row">
+								<div class="col-6">
+									<div class="progress ">
+										<div class="progress-bar bg-success" role="progressbar" style="width: {{back.progressb}}%" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>									
+								</div>
+							</div>														
+						</div>											
+					</div>
+				</div>
+
+				<div class="jumbotron pt-1 bg-secondary border border-dark col-10 pb-1 mb-3">
+					<p class="btn btn-success" data-toggle="collapse" data-target="#Collapse3" aria-expanded="false" aria-controls="Collapse3">Bases de datos</p>
+					<div class="collapse" id="Collapse3">
+						<div class="card-body m-1 p-1" ng-repeat="bd in conocimientos.bd track by $index">
+							<div class="row">
+								<h5 class="card-title col-6"> - {{bd.nombre}} </h5>
+								<p class="card-text col-6">{{bd.nivel}}</p>
+							</div>
+
+
+							<div class="row">
+								<div class="col-6">
+									<div class="progress ">
+										<div class="progress-bar bg-success" role="progressbar" style="width: {{bd.progressb}}%" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>									
+								</div>
+							</div>														
+						</div>											
+					</div>
+				</div>
+
+				<div class="jumbotron pt-1 bg-secondary border border-dark col-10 pb-1 mb-3">
+					<p class="btn btn-success" data-toggle="collapse" data-target="#Collapse4" aria-expanded="false" aria-controls="Collapse4">versionadores</p>
+					<div class="collapse" id="Collapse4">
+						<div class="card-body m-1 p-1" ng-repeat="versionadores in conocimientos.versionadores track by $index">
+							<div class="row">
+								<h5 class="card-title col-6"> - {{versionadores.nombre}} </h5>
+								<p class="card-text col-6">{{versionadores.nivel}}</p>
+							</div>
+
+
+							<div class="row">
+								<div class="col-6">
+									<div class="progress ">
+										<div class="progress-bar bg-success" role="progressbar" style="width: {{versionadores.progressb}}%" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>									
+								</div>
+							</div>						
+						</div>											
+					</div>
+				</div>
+
+				<div class="jumbotron pt-1 bg-secondary border border-dark col-10 pb-1 mb-3">
+					<p class="btn btn-success" data-toggle="collapse" data-target="#Collapse5" aria-expanded="false" aria-controls="Collapse5">SO</p>
+					<div class="collapse" id="Collapse5">
+						<div class="card-body m-1 p-1" ng-repeat="SO in conocimientos.SO track by $index">
+							<div class="row">
+								<h5 class="card-title col-6"> - {{SO.nombre}} </h5>
+								<p class="card-text col-6">{{SO.nivel}}</p>
+							</div>
+
+							<div class="row">
+								<div class="col-6">
+									<div class="progress ">
+										<div class="progress-bar bg-success" role="progressbar" style="width: {{SO.progressb}}%" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>									
+								</div>
+							</div>															
+						</div>											
+					</div>
+				</div>
+
+				<div class="jumbotron pt-1 bg-secondary border border-dark col-10 pb-1 mb-3">
+					<p class="btn btn-success" data-toggle="collapse" data-target="#Collapse6" aria-expanded="false" aria-controls="Collapse6">interpretado</p>
+					<div class="collapse" id="Collapse6">
+						<div class="card-body m-1 p-1" ng-repeat="interpretado in conocimientos.interpretado track by $index">
+							<div class="row">
+								<h5 class="card-title col-6"> - {{interpretado.nombre}} </h5>
+								<p class="card-text col-6">{{interpretado.nivel}}</p>
+							</div>
+
+							<div class="row">
+								<div class="col-6">
+									<div class="progress ">
+										<div class="progress-bar bg-success" role="progressbar" style="width: {{interpretado.progressb}}%" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>									
+								</div>
+							</div>															
+						</div>											
+					</div>
+				</div>
+
+				<div class="jumbotron pt-1 bg-secondary border border-dark col-10 pb-1 mb-3">
+					<p class="btn btn-success" data-toggle="collapse" data-target="#Collapse7" aria-expanded="false" aria-controls="Collapse7">POO</p>
+					<div class="collapse" id="Collapse7">
+						<div class="card-body m-1 p-1" ng-repeat="POO in conocimientos.POO track by $index">
+							<div class="row">
+								<h5 class="card-title col-6"> - {{POO.nombre}} </h5>
+								<p class="card-text col-6">{{POO.nivel}}</p>
+							</div>
+
+							<div class="row">
+								<div class="col-6">
+									<div class="progress ">
+										<div class="progress-bar bg-success" role="progressbar" style="width: {{POO.progressb}}%" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>									
+								</div>
+							</div>															
+						</div>											
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
